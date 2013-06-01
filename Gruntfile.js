@@ -390,11 +390,13 @@ module.exports = function (grunt) {
     concurrent: {
       server: [
         'sass:server',
+        'coffee:server',
         'copy:stageCss',
         'jekyll:server'
       ],
       dist: [
         'sass:dist',
+        'coffee:dist',
         'copy:dist',
         'copy:stageCss',
         'copy:stageJs',

@@ -68,15 +68,14 @@ header {
 }
 
 footer {
-  font-size: $bodyFontSize - 4;
   color: $asbestos;
   border-top: 4px solid #1abc9c;
   overflow: hidden;
   div {
-    @include span-columns(3);
+    @include span-columns(4);
   }
   p {
-    font-size: $bodyFontSize - 2;
+    font-size: $bodyFontSize - 4;
   }
 }
 
