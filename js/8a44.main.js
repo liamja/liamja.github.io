@@ -1,1 +1,0 @@
-!function(){var a,b,c,d;c="abcdefghijklm@.91",d="nopqrstuvwxyz@.91",a=function(a){var b,e,f,g,h;for(f="",b=g=0,h=a.length;h>=0?h>g:g>h;b=h>=0?++g:--g)e=c.indexOf(a.charAt(b)),-1!==e?f+=d.charAt(e):(e=d.indexOf(a.charAt(b)),f+=c.charAt(e));return f},b=document.getElementById("email"),b.innerHTML=a(b.innerHTML)}.call(this);
